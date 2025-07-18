@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mijn Links</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #111111;
+    }
+
+    .link-card {
+      transition: all 0.3s ease;
+    }
+
+    .link-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .header-bg {
+      background: #ffaa1d;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="header-bg text-white pb-2 text-center">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col items-center">
+        <div class="bg-[#ffaa1d] rounded-full">
+          <img src="https://github.com/DaanHQ/info/blob/main/Daan%20(2).png?raw=true"
+               alt="Profielfoto"
+               class="rounded-full h-80 w-80 object-cover">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow container mx-auto px-4 pb-8 max-w-2xl -mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <!-- E-mail -->
+      <a href="mailto:Daans.hq@gmail.com" class="link-card bg-gray-800 rounded-xl p-4 shadow-md flex items-center hover:bg-opacity-90">
+        <div class="p-3 rounded-lg mr-4" style="background-color: #ffaa1d20">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+               viewBox="0 0 24 24" stroke="#ffaa1d">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M16 12H8m0 0H5m3 0h3m6 0h-3m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">E-mail</h3>
+          <p class="text-sm text-white">Neem contact op</p>
+        </div>
+      </a>
+
+      <!-- Discord -->
+      <a href="https://discord.com/users/1245257607078477845/" target="_blank" class="link-card bg-gray-800 rounded-xl p-4 shadow-md flex items-center hover:bg-opacity-90">
+        <div class="p-3 rounded-lg mr-4" style="background-color: #ffaa1d20">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M14.243 3.757a9 9 0 10-3.9 16.984l-1.141 1.141a1.5 1.5 0 002.122 2.121l6.364-6.364a1.5 1.5 0 10-2.122-2.121l-1.143 1.142a9 9 0 000-12.803z"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Discord</h3>
+          <p class="text-sm text-white">Chat met me</p>
+        </div>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/daanhq/" target="_blank" class="link-card bg-gray-800 rounded-xl p-4 shadow-md flex items-center hover:bg-opacity-90">
+        <div class="p-3 rounded-lg mr-4" style="background-color: #ffaa1d20">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 12a9.75 9.75 0 0119.5 0 9.75 9.75 0 01-19.5 0zM15.75 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Instagram</h3>
+          <p class="text-sm text-white">Volg me</p>
+        </div>
+      </a>
+
+      <!-- Website -->
+      <a href="#" id="websiteLink" class="link-card bg-gray-800 rounded-xl p-4 shadow-md flex items-center hover:bg-opacity-90">
+        <div class="p-3 rounded-lg mr-4" style="background-color: #ffaa1d20">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 4.5c-4.97 0-9 3.134-9 7s4.03 7 9 7 9-3.134 9-7-4.03-7-9-7zM9.75 9.75a.75.75 0 011.5 0v4.5a.75.75 0 01-1.5 0v-4.5zm3 0a.75.75 0 011.5 0v4.5a.75.75 0 01-1.5 0v-4.5z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Website</h3>
+          <p class="text-sm text-white">Website komt binnenkort</p>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 py-4 text-center text-sm text-white">
+    © 2023 Mijn Links. Alle rechten voorbehouden.
+  </footer>
+
+  <script>
+    // Laat melding zien voor "Website komt binnenkort"
+    document.querySelector('#websiteLink').addEventListener('click', (e) => {
+      e.preventDefault();
+      alert('Website komt binnenkort');
+    });
+  </script>
+</body>
+</html>
