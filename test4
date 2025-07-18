@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daan's Links</title>
+  <link rel="icon" type="image/png" href="https://github.com/DaanHQ/info/blob/main/Daan%20(2).png?raw=true">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .icon-bg {
+      background-color: rgba(255, 170, 29, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-black text-white flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-[#ffaa1d] text-center py-16">
+    <h1 class="text-6xl font-extrabold text-white drop-shadow-lg">DAAN</h1>
+    <p class="text-xl font-medium mt-2 text-white drop-shadow">Daan's Website</p>
+  </header>
+
+  <!-- Links -->
+  <main class="flex-grow container mx-auto px-4 py-10 max-w-2xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+      <!-- E-mail -->
+      <a href="mailto:Daans.hq@gmail.com" class="flex items-center bg-[#1c1f2a] p-4 rounded-2xl hover:scale-105 transition transform shadow-lg">
+        <div class="icon-bg rounded-xl p-3 mr-4">
+          <!-- Mail Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 6.75L12 13.5l9.75-6.75M2.25 6.75v10.5A2.25 2.25 0 004.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75M2.25 6.75L12 13.5 21.75 6.75" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-white">E-mail</h3>
+          <p class="text-sm text-gray-300">Neem contact op</p>
+        </div>
+      </a>
+
+      <!-- Discord -->
+      <a href="https://discord.com/users/1245257607078477845/" target="_blank" class="flex items-center bg-[#1c1f2a] p-4 rounded-2xl hover:scale-105 transition transform shadow-lg">
+        <div class="icon-bg rounded-xl p-3 mr-4">
+          <!-- Discord Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M20.25 5.25a16.35 16.35 0 00-4.5-1.5m0 0a16.35 16.35 0 00-4.5 0m0 0a16.35 16.35 0 00-4.5 1.5M3.75 17.25a16.35 16.35 0 014.5 1.5m8.25-1.5a16.35 16.35 0 014.5 1.5M12 13.5a1.5 1.5 0 01-1.5-1.5 1.5 1.5 0 013 0A1.5 1.5 0 0112 13.5z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-white">Discord</h3>
+          <p class="text-sm text-gray-300">Chat met me</p>
+        </div>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/daanhq/" target="_blank" class="flex items-center bg-[#1c1f2a] p-4 rounded-2xl hover:scale-105 transition transform shadow-lg">
+        <div class="icon-bg rounded-xl p-3 mr-4">
+          <!-- Instagram Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M7.5 3h9A4.5 4.5 0 0121 7.5v9a4.5 4.5 0 01-4.5 4.5h-9A4.5 4.5 0 013 16.5v-9A4.5 4.5 0 017.5 3zm4.5 5.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zM17.25 6.75h.008v.008h-.008V6.75z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-white">Instagram</h3>
+          <p class="text-sm text-gray-300">Volg me</p>
+        </div>
+      </a>
+
+      <!-- Website -->
+      <a href="#" id="websiteLink" class="flex items-center bg-[#1c1f2a] p-4 rounded-2xl hover:scale-105 transition transform shadow-lg">
+        <div class="icon-bg rounded-xl p-3 mr-4">
+          <!-- Web Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5"
+               stroke="#ffaa1d" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zm0 0c2.5 1.5 3 3.75 3 6s-.5 4.5-3 6m0-12c-2.5 1.5-3 3.75-3 6s.5 4.5 3 6" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-white">Website</h3>
+          <p class="text-sm text-gray-300">Website komt binnenkort</p>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#0e0e12] text-center py-6 text-sm text-white">
+    Daan's website :)
+  </footer>
+
+  <!-- Alert script -->
+  <script>
+    document.getElementById('websiteLink').addEventListener('click', function(e) {
+      e.preventDefault();
+      alert('Website komt binnenkort!');
+    });
+  </script>
+
+</body>
+</html>
